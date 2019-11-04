@@ -19,7 +19,7 @@ footer:
   has_subscribe: true
   links:
     - new_window: true
-      text: In cooperation with Crypto Economy Organisation
+      text: in partnership with Crypto Economy Organisation
       url: 'https://cryptoeconomy.world/'
   logo_img: images/logo_alt.png
   nav_title: Company
