@@ -21,7 +21,7 @@ footer:
     - new_window: true
       text: in partnership with Crypto Economy Organisation
       url: 'https://cryptoeconomy.world/'
-  logo_img: images/logo_alt.png
+  logo_img: /images/goalhub_favicon.png
   nav_title: Company
   social_title: Community
   subscribe_content: Stay up to date with our latest developments.
