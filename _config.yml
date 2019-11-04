@@ -1,34 +1,36 @@
-title: Stackbit Azimuth Theme
+title: >-
+  Collective Intelligence Platform to crowdsource Innovations, Funds and
+  Partnerships
 baseurl: /
 permalink: '/:title/'
 palette: blue
 header:
-  title: Azimuth
-  logo_img: images/logo.png
   has_nav: true
+  logo_img: /images/goalhub_logo.png
   menu:
     actions:
       - label: Sign Up
         url: /signup
+  title: GoalHUB
 footer:
-  logo_img: images/logo_alt.png
-  tagline: SaaS theme by Stackbit
-  has_nav: true
-  nav_title: Company
-  has_social: true
-  social_title: Community
-  has_subscribe: true
-  subscribe_title: Subscribe
-  subscribe_content: Stay up to date with our latest developments.
   content: '&copy; Stackbit. All rights reserved.'
+  has_nav: true
+  has_social: true
+  has_subscribe: true
   links:
-    - text: Made with Stackbit
+    - new_window: true
+      text: Made with Stackbit
       url: 'https://www.stackbit.com'
-      new_window: true
+  logo_img: images/logo_alt.png
+  nav_title: Company
+  social_title: Community
+  subscribe_content: Stay up to date with our latest developments.
+  subscribe_title: Subscribe
+  tagline: SaaS theme by Stackbit
 sass:
   indentWidth: 4
-  style: nested
   precision: 10
+  style: nested
 plugins:
   - jekyll-menus
 exclude:
@@ -45,6 +47,3 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-collections:
-  posts:
-    permalink: '/posts/:title/'
