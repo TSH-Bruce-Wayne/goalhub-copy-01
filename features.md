@@ -1,9 +1,12 @@
 ---
-title: Features
+title: Features1
 sections:
-  - type: section_content
-    section_id: features
-    title: The Best Features of Your Services
+  - actions:
+      - label: Free Trial
+        url: /signup
+      - label: View Demo
+        url: '#'
+    bg: gray
     content: >-
       Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
       cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
@@ -20,22 +23,20 @@ sections:
       Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
       sed justo tempor condimentum.
     image: images/feature1.png
-    bg: gray
-    actions:
-      - label: Free Trial
-        url: /signup
-      - label: View Demo
-        url: '#'
-  - type: section_cta
-    section_id: call-to-action
-    title: This Is Call to Action Block!
-    subtitle: This is an optional description for the call to action block.
-    actions:
+    section_id: features
+    title: The Best Features of Your Services
+    type: section_content
+  - actions:
       - label: Get Started
         url: '#'
+    section_id: call-to-action
+    subtitle: This is an optional description for the call to action block.
+    title: This Is Call to Action Block!
+    type: section_cta
 menus:
   main:
     title: Features
     weight: 2
 layout: landing
 ---
+
